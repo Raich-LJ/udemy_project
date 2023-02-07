@@ -1,0 +1,445 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.logo{
+    height: 6vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 12vh;
+    align-items: center;   
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+    padding: 20px;
+}
+
+#search_icon{
+    padding: 12px;
+    color: gray;
+    width: 70px;
+    font-size: 25px;
+    text-align: left;
+}
+
+#search {
+    width: 450px;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 50px;
+    outline: 0;
+    border: 0.5px solid black;
+}
+
+.log-in{
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    font-weight: 600;
+    border: 0.5px solid black;
+  }
+  .sign-up{
+    background-color:black;
+    width: 80px;
+    height: 40px;
+    font-weight: 600;
+    border: 0.5px solid white;
+    color: white;
+  }
+  #globe{
+    background-color:white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: 0.5px solid black;
+    color:black;
+  }
+
+  .categories:hover, .business:hover, .teach:hover{
+    color: blueviolet;
+     }
+
+  .landing-page{
+    background-image: url(./Images/Header\ background.jpg);
+    height: 60vh;
+    background-position: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+  }
+
+  .text-box{
+    background-color: white;
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    left: 80px;
+    top: 140px;
+    padding:30px 40px 20px 20px ;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+  }
+
+  .selection{
+    text-align: left;
+    padding: 10px;
+   }
+
+   .selection h1{
+    font-size: 40px;
+    margin-top: 30px;
+    padding: 20px;
+   }
+   .selection p{
+    font-size: 20px;
+    margin: 20px;
+   }
+   .courses{
+    display: flex;
+    font-size: 22px;
+    align-content:left;
+    justify-content: space-between;
+    letter-spacing: 0;
+    font-weight: bolder;
+    width: 60%;
+    margin: 20px;
+    color: rgb(94, 91, 91);
+   }
+
+   .checked {
+    color: orange;
+  }
+
+  .courses-container{
+    border: 0.5px solid gray;
+    padding: 40px;
+    margin: 0 30px;
+  }
+
+  .courses-container button{
+    width: 130px;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 700;
+    margin: 20px 0;
+    background-color: white;
+  }
+
+  .courses-container h3{
+    font-size: 16px;
+  }
+
+  .courses-container h1{
+    padding:0 20px 20px 0;
+  }
+
+  .course-details{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  }
+
+  .course-details img{
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+  }
+
+  .best-seller{
+    background-color:rgb(127, 127, 56);
+    font-size: 12px;
+    width: 50%;
+    text-align: center;
+  }
+  .rating{
+    display: flex;
+    gap: 0.3rem;
+  }
+  .rating p{
+    color: rgb(205, 115, 5);
+    font-weight: 600;
+  }
+  .price {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .play{
+    display:flex;
+    color: black;
+    width: 30%;
+    padding: 0 40px;
+    align-items: center;
+    gap: 1rem;
+  }
+  .play i{
+    font-size: 25px;
+  }
+  .small-section{
+    display: flex;
+    background-color: rgba(202, 199, 199, 0.253);
+    width: 100%;
+    height: 15vh;
+    padding: 40px 0;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+  }
+
+  .students{
+    padding: 30px;
+  }
+
+  .category{
+    font-size: 1.5em;
+    padding: 20px 0;
+    border-bottom: 20em;
+    padding-bottom: 70px;
+  }
+  
+  .grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+     /* margin: 0 1.6rem 1.6rem 0; */
+     font-weight: 200;
+     /* line-height: 1.4; */
+     font-size: 1.2rem;
+     color: #1c1d1f;
+     font-weight: bold;
+  }
+  
+  .grid-item{
+    padding: 10px;
+  }
+  
+
+  .other-categories{
+    padding: 30px;
+    background-color:rgba(202, 199, 199, 0.253) ;
+   
+  }
+  .other-categories h1{
+    padding: 20px 0;
+    font-size: 1.5em;
+  }
+
+  .other-categories button{
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 700;
+  }
+
+  .other-categories button:hover{
+    background-color: rgba(149, 141, 141, 0.885);
+  }
+  .category-container{
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+    flex-wrap: wrap;
+    font-size: 0.7em;
+    
+  }
+  .category h6{
+    font-size: 18px;
+  margin: 15px 0;
+  font-weight: 700;
+  }
+
+  .student-number{
+    padding: 15px 0;
+  }
+  .student-number a{
+    color:rgb(83, 11, 237);
+    font-weight: 800;
+  }
+  .student-number a:hover{
+    color:rgb(27, 27, 248);
+  }  
+
+  .partners{
+    padding: 40px;
+    text-align: center;
+    /* background-color:  rgba(246, 247, 251, 0.899); */
+  }
+
+   .logos{
+    display: flex;
+    padding: 20px ;
+    gap: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    /* align-items: center; */
+   
+    height: 15vh;
+  }
+
+  .logos img{
+    width: 12%;
+    height: 8vh;
+    object-fit: contain;
+  }
+
+  .instructor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 100vh;
+    padding: 80px;
+  }
+  .instructor button{
+    padding: 10px;
+    width: 180px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: black;
+  }
+  .instructor img{
+    width: 60%;
+    
+    object-fit: contain;
+  }
+  .instructor h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 20px 0;
+  }
+  .instructor p{
+    width: 90%;
+    font-weight: 500;
+    font-size:18px ;
+    padding: 10px 0;
+   line-height: 1.5rem;
+  }
+  .udemy-business{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 90vh;
+    padding: 20px 140px;
+  }
+
+  .udemy-business p{
+    width: 90%;
+    font-weight: 500;
+    font-size:18px ;
+    padding: 10px 0;
+   line-height: 1.5rem;
+  }
+
+  .udemy-business button{
+    padding: 10px;
+    width: 180px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: black;
+  }
+
+  .business-picture{
+    width: 60%;
+    object-fit: contain;
+  }
+
+  .business-image{
+    height: 12vh;
+    padding: 10px 0;
+    object-fit: contain;
+  }
+
+  .education{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 3rem;
+    height: 90vh;
+    padding: 0px 160px;
+  }
+  .edd{
+    margin-top:-30px ;
+    margin-left: 50px;
+  }
+  .education button{
+    padding: 10px;
+    width: 180px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: black;
+  }
+  .education p{
+    width: 78%;
+    font-weight: 500;
+    font-size:18px ;
+    padding: 10px 0;
+   line-height: 1.5rem;
+  }
+  .education h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px 0;
+    width: 90%;
+  line-height: 2.5rem;
+  }
+  footer{
+    height: 55vh;
+    background-color:black ;
+  color:aliceblue;
+  }
+  footer a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 30px;
+  }
+  .footer-links a{
+    line-height: 2rem;
+  }
+  .footer-links{
+    font-size: 15px;
+    display: flex;
+    justify-content: left;
+    gap: 6rem;
+    padding: 20px 50px;
+    
+  }
+  .footer-links a:hover{
+    text-decoration: underline;
+  
+  }
+  .footer-logo{
+    height: 10vh;
+    width: 120px;
+    object-fit: contain;
+    margin-left: 60px;
+  }
+  .last{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+  }
+  .last p{
+    margin-right:50px ;
+  }
+  .language{
+    border: 1px solid white;
+    width: 10%;
+    height: 8vh;
+    text-align: center;
+  font-size: 16px;
+  padding: 10px;
+   margin-left: 150px;
+  
+  }
+
